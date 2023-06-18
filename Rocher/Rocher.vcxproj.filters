@@ -27,9 +27,15 @@
     <ClInclude Include="src\Rocher\entryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Rocher\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Rocher\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rocher\Logging.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

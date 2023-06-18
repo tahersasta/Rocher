@@ -8,7 +8,12 @@ extern Rocher::Application* Rocher::CreateApplication();
 
 int main(int argc, char** argv)   
 {
-	printf("ROCHER ENGINE");
+	Rocher::Logging::Init();
+	int a = 5;
+	RC_CORE_WARN(a);
+	RC_ERROR(a);
+
+
 	auto app = Rocher::CreateApplication();
 	app->Run();
 	delete app;
